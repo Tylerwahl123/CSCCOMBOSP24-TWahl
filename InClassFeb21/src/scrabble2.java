@@ -6,9 +6,9 @@ static Scanner input = new Scanner(System.in);
 
 
 	public static void main(String[] args) {
-		System.out.println("What is your set of tiles?");
+		System.out.print("What is your set of tiles?");
 		String tiles = input.next();
-		System.out.println("What word would you like to check?");
+		System.out.print("What word would you like to check?");
 		String word = input.next();
 		int j;
 		
@@ -19,9 +19,9 @@ static Scanner input = new Scanner(System.in);
 //		System.out.println("The character "+ word.charAt(j) + " appears " + wordLetterCount(word) + " in "+ word);
 //		System.out.println("The character " + word.charAt(j) + " appears " + tilesLetterCount(tiles, word.charAt(j))+ " in "+tiles );
 		if (              tilesLetterCount(tiles, word.charAt(j)) < wordLetterCount(word)         ) { 
-			System.out.println("The word " + word +  " cant be spelt with the tile pool provided");
+			System.out.print(" The word " + word +  " cant be spelt with the tile pool provided");
 		}else { 
-			System.out.println("For the letter " + word.charAt(j) + " there is enough in tiles ");
+			System.out.print("For the letter " + word.charAt(j) + " there is enough in tiles ");
 		}
 
 		

@@ -2,6 +2,8 @@
 public class Notes6 {
 
 	public static void main(String[] args) {
+		
+		System.out.print();
 	
 //Practice substring w/ diff. int
 		
@@ -10,7 +12,7 @@ public class Notes6 {
 //String name2 = "Ada Lovelace:;
 //int diff = name1.compareTo(name2);
 //if (diff < 0) {
-		System.out.println
+		
 	}
 
 }
