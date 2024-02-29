@@ -1,0 +1,4 @@
+Output "What are your 3 professional values";
+Input (3 Values for professionals)
+Method ( Sum of values / 3 = proAvg)
+
